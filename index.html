@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Saiadithya Resume</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/Chart.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
+
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
+
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>Saiadithya Cumbulam Thangaraj</h1>
+					<h3> Full stack python developer | pn49571@umbc.edu</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
+
+
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p> I'm a Full stack python developer with 5+ years of professional experience. I love all things code!. My areas of expertise include Web app development, Dev Ops automation, Linux system administration, Databases, Data Wrangling and Data analytics. </p>
+				</div>
+				<div class="col-lg-3">
+					<p><a href="assets/img/resume.docx"><i class="icon-file"></i></a> <sm>Download Resume</sm></p>
+				</div>
+
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
+
+<section id="work" name="work"></section>
+  <!--WORK DESCRIPTION -->
+  <div class="container desc">
+    <div class="row">
+
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>WORK</h5>
+        </div>
+        <div class="col-lg-6">
+          <p><t>Research Software Engineer</t><br/>
+            University of Maryland Baltimore County<br/>
+          </p>
+          <p><more> My responsibilities include identifying discrepancies in Medicaid data through data analytics and create an user end application to implement the solution. As a research scientist, I also did research on program language interopability, Parallel computing, Algorithmn complexity analysis, Natural language processing. My works were published in major conferences like IEEE, MNCHA and Master Thesis. </more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>June 2016 - May 2017</sm></p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Linux System Administrator</t><br/>
+            University of Maryland Baltimore County<br/>
+          </p>
+          <p><more>I served as a Debian administrator with 24/7 responsibility for creating, maintenance and enhancing the current system capabilities. In this role a major accomplishment I'm proud was to learn advanced Linux administrative tasks and implement them including firewall tuning, Pam authentication and grub configuration.</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>Jan 2016 - June 2016</sm></p>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p><t>Python Developer</t><br/>
+            Tata Consultancy Services<br/>
+          </p>
+          <p><more> I developed programs for  Automating infrastructure, workflows, automate the monitoring of application performance and analyzing customer accounts for discrepancies. In this role a major accomplishments I'm proud was to meet the customer demand rapidly  through agile development and automate tasks which resulted in time savings of approximately 2 days per month.</more></p>
+        </div>
+        <div class="col-lg-3">
+          <p><sm>Jan 2016 - June 2016</sm></p>
+        </div>
+    </div><!--/.row -->
+    <br>
+    <hr>
+  </div><!--/.container -->
+
+
+  <!--SKILLS DESCRIPTION -->
+	<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>SKILLS</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="python" height="130" width="130"></canvas>
+						<p>Python</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 100,
+										color:"#1abc9c"
+									},
+									{
+										value : 0,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("python").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="R" height="130" width="130"></canvas>
+						<p>R</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("R").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+					<div class="col-lg-3 centered">
+						<canvas id="TCL" height="130" width="130"></canvas>
+						<p>TCL</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 100,
+										color:"#1abc9c"
+									},
+									{
+										value : 0,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("TCL").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p>HTML/CSS</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="Javascript" height="130" width="130"></canvas>
+						<p>Javascript</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 65,
+										color:"#1abc9c"
+									},
+									{
+										value : 35,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("Javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="SQL/SQLite" height="130" width="130"></canvas>
+						<p>SQL/SQLite/SQLAlchemy</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 100,
+										color:"#1abc9c"
+									},
+									{
+										value : 0,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("SQL/SQLite").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+          <div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="MongoDB" height="130" width="130"></canvas>
+						<p>MongoDB</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 60,
+										color:"#1abc9c"
+									},
+									{
+										value : 40,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("MongoDB").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="C/C++" height="130" width="130"></canvas>
+						<p>C/C++</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 50,
+										color:"#1abc9c"
+									},
+									{
+										value : 50,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("C/C++").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="Java" height="130" width="130"></canvas>
+						<p>Java</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 60,
+										color:"#1abc9c"
+									},
+									{
+										value : 40,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("Java").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
+
+  <section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Master of Science in Information Systems</t><br/>
+						Univeristy of Maryland Baltimore County <br/>
+            <i> GPA: 3.855 </i>
+					</p>
+				</div>
+        <div class="col-lg-3">
+					<p><sm>May 2017</sm></p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Bachelor of science in ELectrical and Electronics Engineering</t><br/>
+						Sri Sairam Engineering College<br/>
+            <i> GPA: 3.8</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>May 2011</sm></p>
+				</div>
+
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>Projects</h5>
+				</div>
+				<div class="col-lg-3">
+					<p><t>Automatic Fraud Detection</t></p>
+				<p><more> This Project is about identifying fraudulent Medicaid claims which violates certain business rules in the Electronic claim processing system. The suspicious claims were detected using data analytics from large claim database. With the use of efficient algorithms, an user end GUI application with Tkinter was developed to scan the data and check for the violation.
+        <br/><br/>
+					<sm><i class="icon-tag"></i> design</sm></more>
+				</p>
+				</div>
+
+        <div class="col-lg-3">
+          <p><t>Data Cleaning Toolkit</t></p>
+          <p><more> Developed Data cleaning toolkit using python and MySQL to identify the discrepancies in the data and auto-correction. Discrepancies includes accumulation of numbers in the text field, incorrect codes, data standard errors, missing values, duplicate entries. For increasing the performance of the application, multithreading with Re2 google regular expression library was used.
+        <br/><br/>
+          <sm><i class="icon-tag"></i> design</sm></more>
+        </p>
+        </div>
+
+        <div class="col-lg-3">
+          <p><t>Label propogation in Big data</t></p>
+        <p><more> Improved the performace of existing Snort Intrusion detection system in predicting Remote access trojan by employing data mining. Semi-supervised Label propogation algorithm combined with voter classifier was used to effectively predict the presence of virus in the IP packets with minimal labeled data in Big data. Apache pyspark was used to develop the application.<br/><br/>
+          <sm><i class="icon-tag"></i> design</sm></more>
+        </p>
+        </div>
+
+        <div class="col-lg-3 col-lg-offset-3">
+          <p><t>Data Browser</t></p>
+        <p><more>Developed a browser using Flask application for easy manipulation of SQLite databases. The application is a one page interface.<br/><br/>
+          <sm><i class="icon-tag"></i> design</sm></more>
+        </p>
+        </div>
+
+        <div class="col-lg-3">
+          <p><t>Performance Metrics Interface</t></p>
+        <p><more> Developed a Django Web Api to display the performance metrics of the Linux system. Information such as status of the open/closed port, SSH connection, firewall status, ldap configuration, DHCP status, system logs, backup status was displayed using the Network programming in python. <br/><br/>
+          <sm><i class="icon-tag"></i> design</sm></more>
+        </p>
+        </div>
+
+        <div class="col-lg-3">
+          <p><t>Email Client Rest API</t></p>
+        <p><more>Email client Rest API for searching emails matching a keyword was developed using python and flask framework.<br/><br/>
+          <sm><i class="icon-tag"></i> design</sm></more>
+        </p>
+        </div>
+
+        <div class="col-lg-3 col-lg-offset-3">
+          <p><t>NLP in Amazon customer reviews</t></p>
+        <p><more> Natural language processing techniques like Named entity recognition and Topic modelling was used to analyze the 142 million customer reviews to identify the reason for delay in amazon shipments.
+          <br/><br/>
+          <sm><i class="icon-tag"></i> design</sm></more>
+        </p>
+        </div>
+
+        <div class="col-lg-3">
+          <p><t>BP Neural Network</t></p>
+        <p><more> To predict the car prices for dataset with large attributes, back propogation neural network with 4 layer hidden neurons was developed.<br/><br/>
+          <sm><i class="icon-tag"></i> design</sm></more>
+        </p>
+        </div>
+
+        <div class="col-lg-3">
+          <p><t>Geolocations with Flask</t></p>
+        <p><more>Flask Rest API application was developed to request the Google geocode server and receive the latitudes and longitudes coordinates.<br/><br/>
+          <sm><i class="icon-tag"></i> design</sm></more>
+        </p>
+        </div>
+
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+
+
+  	<!--AWARDS DESCRIPTION -->
+  	<div class="container desc">
+  		<div class="row">
+  				<div class="col-lg-2 col-lg-offset-1">
+  					<h5>Publication</h5>
+  				</div>
+      <div class="col-lg-9">
+        <ul>
+          <li><p><t>Automated Fraud Detection in Homecare Reimbursed-Medicaid Claims. MNCHA 2016 Conference, Sep 2016.</t><p></li>
+          <li><p><t>Label Propagation in Big Data to detect Trojan virus, IEEE Big data conference, Mar 2016.</t><p></li>
+          <li><p><t>Economic Benefits of Electronic claim processing system, Sini Poster Conference, 2017.</t><p></li>
+          <li><p><t>Identifying Fradulent claims using Scenario Based approach, Thesis, May 2017</t><p></li>
+        </ul>
+      </div>
+  		</div><!--/.row -->
+  		<br>
+  	</div><!--/.container -->
+
+
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						pn49571@umbc.edu <br/>
+					</p>
+					<p><t>Adress</t><br/>
+						4739, Aldgate green <br/>
+						Westland Apartments <br/>
+						Baltimore Maryland-21227 <br/>
+					</p>
+					<p><t>Phone</t><br/>
+						 240-643-1780 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<a href="https://www.facebook.com/sai.adithya"><i class="icon-facebook"></i></a>
+						<a href="https://www.linkedin.com/in/saicumbulam/?locale=de_DE"><i class="icon-linkedin"></i></a>
+            <a href="https://github.com/pn49571"><i class="icon-github"></i></a>
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+
+	<div id="c">
+		<div class="container">
+			<p>Created by <a href="https://github.com/pn49571">Saiadithya Cumbulam Thangaraj</a></p>
+
+		</div>
+	</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
